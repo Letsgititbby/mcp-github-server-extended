@@ -1,0 +1,17 @@
+{
+  "name": "@mcp/server-github-extended",
+  "version": "1.0.0",
+  "description": "Extended GitHub MCP Server with additional features for issue management and PR merging",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@octokit/rest": "^19.0.0",
+    "@modelcontextprotocol/server-github": "latest"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0"
+  }
+}
